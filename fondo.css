@@ -1,0 +1,54 @@
+div#contenedor{
+	background-color: white;
+	width: 1100px;
+	height: 1500px;
+	margin: auto;
+	padding: auto;	
+}
+div#cabecera{
+	background-color: white;
+	height: 10%;
+	margin: auto;
+	display: flex;
+}
+div#logo{
+	width: 70px;
+	height: 70px;
+	background-color: #ff3030;
+	border-radius: 200px;
+	padding: 20px;
+	display: flex;
+}
+h2{
+	margin: 0px;
+	font-size: 15px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 50px;
+}
+
+div#cuerpo {
+	background-color: #E3E3E3;
+	height:80% ;
+	margin: auto;
+}
+div#pie{
+	background-color: white;
+	height: 10%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sociales li{
+	display: inline-block;
+	justify-content: left;
+}
+img:hover{
+	margin: 10px;
+	border-radius: 200px;
+}
+.sociales a{
+	padding: 10px;
+}
